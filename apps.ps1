@@ -1,5 +1,6 @@
 # Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowDevelopmentWithoutDevLicense" /d "1"
+Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
 
 winget install --id=Git.Git  -e ;
 winget install --id=google.chrome ;
