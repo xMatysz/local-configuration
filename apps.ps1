@@ -1,4 +1,5 @@
 # Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowDevelopmentWithoutDevLicense" /d "1"
 
 winget install --id=Git.Git  -e ;
 winget install --id=google.chrome ;
