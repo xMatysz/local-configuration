@@ -16,6 +16,5 @@ winget install --id=VideoLAN.VLC  -e ;
 winget install --id=Microsoft.PowerToys  -e ;
 winget install --id=dbeaver.dbeaver -e ;
 winget install --id=OBSProject.OBSStudio -e ;
-winget install --id=Debian.Debian -e ;
 winget install --id=Microsoft.DevHome -e ;
 wsl --install ;
