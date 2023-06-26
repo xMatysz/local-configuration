@@ -4,6 +4,7 @@ Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller
 
 winget install --id=Git.Git  -e ;
 winget install --id=google.chrome ;
+winget install JanDeDobbeleer.OhMyPosh -s winget ;
 winget install --id=7zip.7zip -e  ; 
 #winget install --id=Microsoft.VisualStudio.2022.Community -e  ; 
 git clone https://github.com/xMatysz/local-configuration.git C:/gitConfig/
