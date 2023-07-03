@@ -22,4 +22,5 @@ winget install --id=Microsoft.PowerToys  -e ;
 winget install --id=dbeaver.dbeaver -e ;
 winget install --id=OBSProject.OBSStudio -e ;
 winget install --id=Microsoft.DevHome -e ;
+winget install screenpresso -s msstore -e ;
 wsl --install ;
