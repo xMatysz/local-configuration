@@ -22,5 +22,6 @@ winget install --id=Microsoft.PowerToys  -e ;
 winget install --id=dbeaver.dbeaver -e ;
 winget install --id=OBSProject.OBSStudio -e ;
 winget install --id=Microsoft.DevHome -e ;
-winget install screenpresso -s msstore -e ;
+winget install --id=Notion.Notion -e  ; 
+winget install --id=Learnpulse.Screenpresso -e 
 wsl --install ;
