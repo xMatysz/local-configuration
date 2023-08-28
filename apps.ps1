@@ -6,9 +6,6 @@ winget install --id=Git.Git  -e ;
 winget install --id=google.chrome ;
 winget install JanDeDobbeleer.OhMyPosh -s winget ;
 winget install --id=7zip.7zip -e  ; 
-#winget install --id=Microsoft.VisualStudio.2022.Community -e  ; 
-git clone https://github.com/xMatysz/local-configuration.git C:/gitConfig/
-winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config C:\gitConfig\my.vsconfig"
 winget install --id=Microsoft.VisualStudioCode -e ;
 winget install --id=JetBrains.Rider -e ;
 winget install --id=Microsoft.PowerShell  -e ;
@@ -25,3 +22,7 @@ winget install --id=Microsoft.DevHome -e ;
 winget install --id=Notion.Notion -e  ; 
 winget install --id=Learnpulse.Screenpresso -e 
 wsl --install ;
+
+# requiere restart 
+ git clone https://github.com/xMatysz/local-configuration.git C:/gitConfig/
+ winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config C:\gitConfig\my.vsconfig"
